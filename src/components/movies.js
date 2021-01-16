@@ -38,13 +38,12 @@ const Movies = (props) => {
 
         <ul>
           <li class="movie-content">
-            <img src={props.poster}></img>
-            <br></br>
+            <img class="poster" src={props.poster}></img>
             <span class="movie-text">
             {props.title} 
             </span>
-          <br></br>
-          <button type="button" class="btn btn-warning" onClick={handleClick} disabled={disabled}>Nominate</button>
+            <div class="overlay"></div>
+          <button type="button" class="btn btn-warning" id="button" onClick={handleClick} disabled={disabled}>Nominate</button>
           </li>
         </ul>
   );

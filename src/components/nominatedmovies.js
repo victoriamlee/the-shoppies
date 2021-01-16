@@ -17,14 +17,12 @@ const NominatedMovies = (props) => {
   return (
         <ul>
           <li class="movie-content">
-            <img src={props.poster}></img>
-            <br></br>
+            <img class="poster" src={props.poster}></img>
             <span class="movie-text">
             {props.title} 
             </span>
-          <br></br>
-          {/* <button>Nominate</button> */}
-          <button type="button" class="btn btn-warning" onClick={handleClick}>Remove</button>
+          <div class="overlay"></div>
+          <button type="button" class="btn btn-warning" id="button" onClick={handleClick}>Remove</button>
           </li>
         </ul>
   );

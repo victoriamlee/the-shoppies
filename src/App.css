@@ -86,13 +86,55 @@ ul {
   width: 65%;
   align-items: center;
   margin-top: 4em;
-  margin-bottom: 4em;
-
+  margin-bottom: 5em;
+  position: relative;
+  transform: scale(1.1);
 }
 
 .movie-text {
-  font-weight: bold;
+  display: none;  
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 120px;
+  font-weight: 700;
+  font-size: 30px;
   text-align: center;
-  color: black;
-  font-size: 20px;
+  text-transform: uppercase;
+  color: rgb(255, 196, 0);
+  z-index: 1;
+  transition: top .5s ease;
+  font-family: "Monaco";
+}
+
+#button {
+  display: none;
+  position: absolute;
+  bottom: 100px;
+  text-align: center;
+  transition: opacity .35s ease;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  margin: auto;
+  width: 113%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.5s ease;
+}
+
+.movie-content:hover .overlay {
+  display: flex;
+  background: rgba(0, 0, 0, 0.486);
+}
+
+.movie-content:hover .movie-text {
+  display: block;
+}
+
+.movie-content:hover #button {
+  display: block;
+  opacity: 1;
 }
