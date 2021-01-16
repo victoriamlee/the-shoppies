@@ -17,16 +17,11 @@ function App() {
   useEffect(() => {
     if (localStorage.getItem('nominated')) {
       let moviesText = localStorage.getItem('nominated');
-      console.log("hello");
-      console.log(moviesText);
       moviesText = JSON.parse(moviesText)
-      console.log(moviesText);
       setNominated(moviesText);
 
     }
   }, []);
-
-  console.log('movies from app', nominated)
 
   return (
     <div class="body">

@@ -7,7 +7,6 @@ const NominatedMovies = (props) => {
   const handleClick = () => {
     console.log("Removed!");
     const removeNomination = props.nominated.filter(e => e.title !== props.title);
-    console.log(removeNomination)
     props.setNominated(removeNomination);
     const nominatedArr = JSON.stringify(removeNomination)
     localStorage.setItem('nominated', nominatedArr);

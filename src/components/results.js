@@ -4,13 +4,11 @@ import Movies from './movies';
 import '../App.css';
 
 const Results = (props) => {
-  console.log(props.nominated)
   return (
 <div class="results">
         <h3 class="content">Results for "{props.searchValue}"</h3>
 
           {props.show && props.movies.map(movie => {
-            console.log('movie loop', movie)
             return (
               <Movies 
                 title={movie.Title}

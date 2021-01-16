@@ -18,7 +18,6 @@ const Movies = (props) => {
 
     nominatedArr.push(nominatedObj)
     nominatedArr = JSON.stringify(nominatedArr)
-    console.log(nominatedArr)
     localStorage.setItem('nominated', nominatedArr);
     setDisabled("true");
   };
@@ -30,7 +29,6 @@ const Movies = (props) => {
     for (let removed of props.enable) {
 
       if (disabled === "true" && removed === props.title) {
-        console.log('enable it')
         setDisabled("")
         props.setEnable([]);
       } 

@@ -15,11 +15,9 @@ const SearchBar = (props) => {
       console.log("search!")
       axios.get('http://www.omdbapi.com/?apikey=9a35189f&s=' + encodeURI(search))
         .then(res => {
-          console.log(res.data);
           props.setMovies(res.data.Search);
           props.setShow(true);
           props.setSearchValue(search);
-          console.log('data', res.data.Search);
         })
     }
   }
