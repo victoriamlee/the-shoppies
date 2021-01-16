@@ -12,7 +12,7 @@ const SearchBar = (props) => {
   const handleSearch = e => {
     if (e.key === 'Enter') {
       console.log("search!")
-      axios.get('http://www.omdbapi.com/?apikey=9a35189f&s=' + encodeURI(search))
+      axios.get('https://www.omdbapi.com/?apikey=9a35189f&s=' + encodeURI(search))
         .then(res => {
           props.setMovies(res.data.Search);
           props.setShow(true);
