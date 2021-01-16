@@ -1,5 +1,4 @@
-// import logo from './logo.svg';
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import '../App.css';
 
 const NominatedMovies = (props) => {

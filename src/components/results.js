@@ -1,4 +1,3 @@
-// import logo from './logo.svg';
 import React from 'react';
 import Movies from './movies';
 import '../App.css';

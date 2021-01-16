@@ -1,4 +1,3 @@
-// import logo from './logo.svg';
 import '../App.css';
 import React, {useState, useEffect} from 'react';
 
@@ -23,16 +22,24 @@ const Movies = (props) => {
   };
 
   useEffect(() => {
-    setDisabled("");
+    for (let movie of props.nominated) {
+      if (props.title !== movie.title) {
+        setDisabled("");
+      } else {
+        setDisabled("true");
+      }
+    }
   },[props.movies])
 
-    for (let removed of props.enable) {
 
+  if (props.enable.length > 0) {
+    for (let removed of props.enable) {
       if (disabled === "true" && removed === props.title) {
         setDisabled("")
         props.setEnable([]);
       } 
     }
+  }
   
   return (
 
