@@ -12,6 +12,7 @@ const Results = (props) => {
               <Movies 
                 title={movie.Title}
                 poster={movie.Poster}
+                year={movie.Year}
                 nominated={props.nominated}
                 setNominated={props.setNominated}
                 movies={props.movies}

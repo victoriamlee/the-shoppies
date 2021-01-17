@@ -97,7 +97,7 @@ ul {
   width: 100%;
   left: 0;
   top: 100px;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 30px;
   text-align: center;
   text-transform: uppercase;
@@ -105,6 +105,11 @@ ul {
   z-index: 1;
   transition: top .5s ease;
   font-family: "Monaco";
+}
+
+.year {
+  font-weight: 300;
+  font-size: 20px;
 }
 
 #button {

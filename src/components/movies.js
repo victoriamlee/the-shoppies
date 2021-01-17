@@ -7,7 +7,7 @@ const Movies = (props) => {
 
   const handleClick = () => {
     console.log("Nominate!");
-    const nominatedObj = {title: props.title, poster: props.poster}
+    const nominatedObj = {title: props.title, poster: props.poster, year: props.year}
     props.setNominated(props.nominated.concat(nominatedObj));
     let nominatedArr = [];
 
@@ -42,12 +42,15 @@ const Movies = (props) => {
   }
   
   return (
-
         <ul>
           <li class="movie-content">
             <img class="poster" src={props.poster}></img>
             <span class="movie-text">
             {props.title} 
+            <br></br>
+            <span class="year">
+            ({props.year})
+            </span>
             </span>
             <div class="overlay"></div>
           <button type="button" class="btn btn-warning" id="button" onClick={handleClick} disabled={disabled}>Nominate</button>

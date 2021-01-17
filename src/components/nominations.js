@@ -11,6 +11,7 @@ const Nominations = (props) => {
                   <NominatedMovies 
                   title={movie.title}
                   poster={movie.poster}
+                  year={movie.year}
                   nominated={props.nominated}
                   setNominated={props.setNominated}
                   enable={props.enable}

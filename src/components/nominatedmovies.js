@@ -19,6 +19,10 @@ const NominatedMovies = (props) => {
             <img class="poster" src={props.poster}></img>
             <span class="movie-text">
             {props.title} 
+            <br></br>
+            <span class="year">
+            ({props.year})
+            </span>
             </span>
           <div class="overlay"></div>
           <button type="button" class="btn btn-warning" id="button" onClick={handleClick}>Remove</button>
