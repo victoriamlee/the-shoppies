@@ -3,6 +3,7 @@ import './App.css';
 import SearchBar from './components/searchBar';
 import Results from './components/results';
 import Nominations from './components/nominations';
+import Banner from './components/banner';
 
 function App() {
   const [movies, setMovies] = useState([]);
@@ -32,6 +33,8 @@ function App() {
         </span>
         </h1>
         </div>
+
+        <Banner nominated={nominated} />
 
         <SearchBar 
         setMovies={setMovies} 
