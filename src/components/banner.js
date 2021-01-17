@@ -13,10 +13,11 @@ const Banner = (props) => {
   },[props.nominated])
   
   if (showBanner) {
-    return (
-      <div>
-          <h3>You have 5 nominations!</h3>
-        </div>
+    return (        
+      <div class="alert alert-warning" role="alert" id="banner">
+        <h4>You have 5 nominations!</h4>
+      </div>
+        
     );
 
   } else {
