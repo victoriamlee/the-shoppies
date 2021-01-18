@@ -12,7 +12,7 @@ https://the-shoppies-nominations.netlify.app/
 - Nominations are saved if the user leaves the page
 
 ## Screenshots
-!["search"] (https://github.com/victoriamlee/the-shoppies/blob/main/docs/search.png)
-!["hover"] (https://github.com/victoriamlee/the-shoppies/blob/main/docs/hover.png)
-!["nominate"] (https://github.com/victoriamlee/the-shoppies/blob/main/docs/nominate.png)
-!["remove"] (https://github.com/victoriamlee/the-shoppies/blob/main/docs/remove.png)
+!["search"] (https://github.com/victoriamlee/the-shoppies/blob/main/docs/search.png?raw=true)
+!["hover"] (https://github.com/victoriamlee/the-shoppies/blob/main/docs/hover.png?raw=true)
+!["nominate"] (https://github.com/victoriamlee/the-shoppies/blob/main/docs/nominate.png?raw=true)
+!["remove"] (https://github.com/victoriamlee/the-shoppies/blob/main/docs/remove.png?raw=true)
