@@ -10,9 +10,3 @@ https://the-shoppies-nominations.netlify.app/
 - Users can remove a nominee from the nomination list
 - A banner will display when the user has 5 nominations
 - Nominations are saved if the user leaves the page
-
-## Screenshots
-!["search"] (https://github.com/victoriamlee/the-shoppies/blob/main/docs/search.png?raw=true)
-!["hover"] (https://github.com/victoriamlee/the-shoppies/blob/main/docs/hover.png?raw=true)
-!["nominate"] (https://github.com/victoriamlee/the-shoppies/blob/main/docs/nominate.png?raw=true)
-!["remove"] (https://github.com/victoriamlee/the-shoppies/blob/main/docs/remove.png?raw=true)
