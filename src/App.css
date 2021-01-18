@@ -94,8 +94,7 @@ ul {
 .movie-text {
   display: none;  
   position: absolute;
-  width: 100%;
-  left: 0;
+  width: 60%;
   top: 100px;
   font-weight: 600;
   font-size: 30px;
