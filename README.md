@@ -11,3 +11,8 @@ https://the-shoppies-nominations.netlify.app/
 - A banner will display when the user has 5 nominations
 - Nominations are saved if the user leaves the page
 
+## Screenshots
+!["search"] (https://github.com/victoriamlee/the-shoppies/blob/main/docs/search.png)
+!["hover"] (https://github.com/victoriamlee/the-shoppies/blob/main/docs/hover.png)
+!["nominate"] (https://github.com/victoriamlee/the-shoppies/blob/main/docs/nominate.png)
+!["remove"] (https://github.com/victoriamlee/the-shoppies/blob/main/docs/remove.png)
